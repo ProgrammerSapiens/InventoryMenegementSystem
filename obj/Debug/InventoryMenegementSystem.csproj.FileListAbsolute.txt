@@ -1,0 +1,10 @@
+C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\bin\Debug\InventoryMenegementSystem.exe.config
+C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\bin\Debug\InventoryMenegementSystem.exe
+C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\bin\Debug\InventoryMenegementSystem.pdb
+C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.csproj.AssemblyReference.cache
+C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.LoginForm.resources
+C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.Properties.Resources.resources
+C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.csproj.GenerateResource.cache
+C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.csproj.CoreCompileInputs.cache
+C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.exe
+C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.pdb
