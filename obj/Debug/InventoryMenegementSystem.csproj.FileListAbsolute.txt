@@ -9,3 +9,4 @@ C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\Inventory
 C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.exe
 C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.pdb
 C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.MainForm.resources
+C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.CustomerButton.resources
