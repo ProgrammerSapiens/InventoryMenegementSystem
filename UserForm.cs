@@ -29,5 +29,13 @@ namespace InventoryMenegementSystem
             dr.Close();
             conn.Close();
         }
+
+        private void btnAdd_Click(object sender, System.EventArgs e)
+        {
+            UserModuleForm userModule = new UserModuleForm();
+            userModule.btnSave.Enabled = true;
+            userModule.btnUpdate.Enabled = false;
+            userModule.ShowDialog();
+        }
     }
 }
