@@ -11,3 +11,4 @@ C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\Inventory
 C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.MainForm.resources
 C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.CustomerButton.resources
 C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.UserForm.resources
+C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.UserModuleForm.resources
