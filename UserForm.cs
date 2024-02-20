@@ -36,6 +36,7 @@ namespace InventoryMenegementSystem
             userModule.btnSave.Enabled = true;
             userModule.btnUpdate.Enabled = false;
             userModule.ShowDialog();
+            LoadUser();
         }
 
         private void dgvUser_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -51,6 +52,7 @@ namespace InventoryMenegementSystem
 
                 userModule.btnSave.Enabled = false;
                 userModule.btnUpdate.Enabled = true;
+                userModule.txtUserName.Enabled = false;
                 userModule.ShowDialog();
             }
             else if (colName == "Delete")
@@ -58,12 +60,13 @@ namespace InventoryMenegementSystem
                 if (MessageBox.Show("Are you sure you want to delete this user?", "Delete Record", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     conn.Open();
-                    cmd = new SqlCommand("DELETE FROM tbUser WHERE phone LIKE '" + dgvUser.Rows[e.RowIndex].Cells[1].Value.ToString() + "'", conn);
+                    cmd = new SqlCommand("DELETE FROM tbUser WHERE username LIKE '" + dgvUser.Rows[e.RowIndex].Cells[1].Value.ToString() + "'", conn);
                     cmd.ExecuteNonQuery();
                     conn.Close();
                     MessageBox.Show("Record has been successfully deleted!");
                 }
             }
+            LoadUser();
         }
     }
 }

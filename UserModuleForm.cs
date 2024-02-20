@@ -22,6 +22,11 @@ namespace InventoryMenegementSystem
         {
             try
             {
+                if (txtPass.Text != txtRepass.Text)
+                {
+                    MessageBox.Show("Password did not Match!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
                 if (MessageBox.Show("Are you sure you want to save this user?", "Saving Record", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     cmd = new SqlCommand("INSERT INTO tbUser(username, fullname, password, phone) VALUES(@username, @fullname, @password, @phone)", conn);
@@ -45,6 +50,8 @@ namespace InventoryMenegementSystem
         private void btnClear_Click(object sender, EventArgs e)
         {
             Clear();
+            btnSave.Enabled = true;
+            btnUpdate.Enabled = false;
         }
 
         public void Clear()
@@ -52,6 +59,7 @@ namespace InventoryMenegementSystem
             txtUserName.Clear();
             txtFullName.Clear();
             txtPass.Clear();
+            txtRepass.Clear();
             txtPhone.Clear();
         }
 
@@ -59,6 +67,11 @@ namespace InventoryMenegementSystem
         {
             try
             {
+                if (txtPass.Text != txtRepass.Text)
+                {
+                    MessageBox.Show("Password did not Match!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
                 if (MessageBox.Show("Are you sure you want to update this user?", "Update Record", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
                 {
                     cmd = new SqlCommand("UPDATE tbUser SET fullname=@fullname, password=@password, phone=@phone WHERE username LIKE'" + txtUserName.Text + "'", conn);
@@ -70,6 +83,7 @@ namespace InventoryMenegementSystem
                     conn.Close();
                     MessageBox.Show("User has been successfully updated");
                     Clear();
+                    this.Dispose();
                 }
             }
             catch (Exception ex)
