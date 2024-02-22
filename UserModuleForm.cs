@@ -38,7 +38,7 @@ namespace InventoryMenegementSystem
                     cmd.ExecuteNonQuery();
                     conn.Close();
                     MessageBox.Show("User has been successfully saved");
-                    Clear();
+                    this.Dispose();
                 }
             }
             catch (Exception ex)
