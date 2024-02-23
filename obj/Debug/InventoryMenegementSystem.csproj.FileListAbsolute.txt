@@ -16,3 +16,5 @@ C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\Inventory
 C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.CustomerModuleForm.resources
 C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.CategoryForm.resources
 C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.CategoryModuleForm.resources
+C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.ProductForm.resources
+C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.ProductModuleForm.resources
