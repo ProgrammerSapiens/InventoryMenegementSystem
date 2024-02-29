@@ -55,7 +55,7 @@
             this.panel2.Location = new System.Drawing.Point(0, 605);
             this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1000, 45);
+            this.panel2.Size = new System.Drawing.Size(979, 45);
             this.panel2.TabIndex = 2;
             // 
             // btnAdd
@@ -110,7 +110,7 @@
             this.dgvCustomer.EnableHeadersVisualStyles = false;
             this.dgvCustomer.Location = new System.Drawing.Point(0, 0);
             this.dgvCustomer.Name = "dgvCustomer";
-            this.dgvCustomer.Size = new System.Drawing.Size(1000, 605);
+            this.dgvCustomer.Size = new System.Drawing.Size(979, 605);
             this.dgvCustomer.TabIndex = 3;
             this.dgvCustomer.TabStop = false;
             this.dgvCustomer.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCustomer_CellContentClick);
@@ -164,7 +164,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1000, 650);
+            this.ClientSize = new System.Drawing.Size(979, 650);
             this.Controls.Add(this.dgvCustomer);
             this.Controls.Add(this.panel2);
             this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));

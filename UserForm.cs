@@ -8,6 +8,7 @@ namespace InventoryMenegementSystem
         SqlConnection conn = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\PotatoKiller\Documents\dbIMS.mdf;Integrated Security=True;Connect Timeout=30");
         SqlCommand cmd = new SqlCommand();
         SqlDataReader dr;
+
         public UserForm()
         {
             InitializeComponent();

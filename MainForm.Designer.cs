@@ -35,16 +35,16 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.btnOrder = new InventoryMenegementSystem.CustomerButton();
-            this.btnUser = new InventoryMenegementSystem.CustomerButton();
-            this.btnCategory = new InventoryMenegementSystem.CustomerButton();
-            this.btnCustomer = new InventoryMenegementSystem.CustomerButton();
-            this.btnProduct = new InventoryMenegementSystem.CustomerButton();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panelMain = new System.Windows.Forms.Panel();
+            this.btnOrder = new InventoryMenegementSystem.CustomerButton();
+            this.btnUser = new InventoryMenegementSystem.CustomerButton();
+            this.btnCategory = new InventoryMenegementSystem.CustomerButton();
+            this.btnCustomer = new InventoryMenegementSystem.CustomerButton();
+            this.btnProduct = new InventoryMenegementSystem.CustomerButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnOrder)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnUser)).BeginInit();
@@ -73,7 +73,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(984, 85);
+            this.panel1.Size = new System.Drawing.Size(980, 85);
             this.panel1.TabIndex = 0;
             // 
             // label8
@@ -126,6 +126,57 @@
             this.label4.TabIndex = 15;
             this.label4.Text = "Product";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
+            this.label2.Font = new System.Drawing.Font("Broadway", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(44, 19);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(109, 21);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "obilhead";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Broadway", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(1, 2);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(54, 42);
+            this.label1.TabIndex = 8;
+            this.label1.Text = "M";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label3.Location = new System.Drawing.Point(4, 48);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(248, 19);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Inventory Management System";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Firebrick;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 579);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(980, 33);
+            this.panel2.TabIndex = 1;
+            // 
+            // panelMain
+            // 
+            this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelMain.Location = new System.Drawing.Point(0, 85);
+            this.panelMain.Margin = new System.Windows.Forms.Padding(4);
+            this.panelMain.Name = "panelMain";
+            this.panelMain.Size = new System.Drawing.Size(980, 494);
+            this.panelMain.TabIndex = 2;
+            // 
             // btnOrder
             // 
             this.btnOrder.Image = ((System.Drawing.Image)(resources.GetObject("btnOrder.Image")));
@@ -137,6 +188,7 @@
             this.btnOrder.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnOrder.TabIndex = 14;
             this.btnOrder.TabStop = false;
+            this.btnOrder.Click += new System.EventHandler(this.btnOrder_Click);
             // 
             // btnUser
             // 
@@ -190,62 +242,11 @@
             this.btnProduct.TabStop = false;
             this.btnProduct.Click += new System.EventHandler(this.btnProduct_Click);
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Broadway", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(44, 19);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(109, 21);
-            this.label2.TabIndex = 9;
-            this.label2.Text = "obilhead";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Broadway", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(1, 2);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 42);
-            this.label1.TabIndex = 8;
-            this.label1.Text = "M";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(4, 48);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(248, 19);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Inventory Management System";
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.Firebrick;
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel2.Location = new System.Drawing.Point(0, 578);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(984, 33);
-            this.panel2.TabIndex = 1;
-            // 
-            // panelMain
-            // 
-            this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelMain.Location = new System.Drawing.Point(0, 85);
-            this.panelMain.Margin = new System.Windows.Forms.Padding(4);
-            this.panelMain.Name = "panelMain";
-            this.panelMain.Size = new System.Drawing.Size(984, 493);
-            this.panelMain.TabIndex = 2;
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(984, 611);
+            this.ClientSize = new System.Drawing.Size(980, 612);
             this.Controls.Add(this.panelMain);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
