@@ -20,3 +20,4 @@ C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\Inventory
 C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.ProductModuleForm.resources
 C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.OrderForm.resources
 C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.OrderModuleForm.resources
+C:\Users\PotatoKiller\source\repos\InventoryMenegementSystem\obj\Debug\InventoryMenegementSystem.WelcomeForm.resources
