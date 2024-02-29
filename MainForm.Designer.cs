@@ -40,12 +40,15 @@
             this.label3 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panelMain = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnOrder = new InventoryMenegementSystem.CustomerButton();
             this.btnUser = new InventoryMenegementSystem.CustomerButton();
             this.btnCategory = new InventoryMenegementSystem.CustomerButton();
             this.btnCustomer = new InventoryMenegementSystem.CustomerButton();
             this.btnProduct = new InventoryMenegementSystem.CustomerButton();
             this.panel1.SuspendLayout();
+            this.panelMain.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnOrder)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnUser)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCategory)).BeginInit();
@@ -170,12 +173,23 @@
             // 
             // panelMain
             // 
+            this.panelMain.BackColor = System.Drawing.Color.White;
+            this.panelMain.Controls.Add(this.pictureBox1);
             this.panelMain.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelMain.Location = new System.Drawing.Point(0, 85);
             this.panelMain.Margin = new System.Windows.Forms.Padding(4);
             this.panelMain.Name = "panelMain";
             this.panelMain.Size = new System.Drawing.Size(980, 494);
             this.panelMain.TabIndex = 2;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(258, 107);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(483, 268);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // btnOrder
             // 
@@ -258,6 +272,8 @@
             this.Text = "Inventory Management System";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panelMain.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnOrder)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnUser)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnCategory)).EndInit();
@@ -285,5 +301,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         public CustomerButton btnUser;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
